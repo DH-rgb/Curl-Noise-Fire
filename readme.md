@@ -1,5 +1,6 @@
 # Curl Noise Fire
-Transform Feedback と Curl Noise を利用したGPUパーティクルによる炎の表現
+Transform Feedbackを使用し、CPUではなくGPUで演算することで、大量のパーティクル描画。
+パーティクルに位置情報を元にCurl Noiseを適用することで炎のような動きを再現しています。
 
 ![実行結果](./img/CurlNoiseFire.png "Curl Noise Fire")
 
@@ -31,6 +32,9 @@ Transform Feedbackのイメージ図は以下のよう。
 当該ディレクトリで
     $make
 してください。
+
+### 操作
+左クリック＆ドラッグでオブジェクトの回転を行います。ESCキーで終了です。 
 
 ### Tips
 発生間隔がおかしい場合、simple.vert のdtimeを（おすすめは0...1の間で）調整してください。
