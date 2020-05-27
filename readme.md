@@ -36,3 +36,6 @@ Transform Feedbackのイメージ図は以下のよう。
 発生間隔がおかしい場合、simple.vert のdtimeを（おすすめは0...1の間で）調整してください。
 
 粒子のばらつきが大きい時、simple.vert のnoise_strengthを（おすすめは1...5で)調整してください
+
+## Gif
+追加予定
